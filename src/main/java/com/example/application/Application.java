@@ -19,8 +19,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         name = "Vaadin CRM",
         shortName = "CRM",
         offlinePath="offline.html",
-        offlineResources = {
-                "offline.html", "images/offline.png" }
+        offlineResources = { "images/offline.png" }
 )
 public class Application implements AppShellConfigurator {
 
